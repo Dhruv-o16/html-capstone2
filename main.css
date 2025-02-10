@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", serif;
+}
+
+body {
+    background-color: #fcfcfc;
+}
+
+.profile {
+    position: relative;
+    float: left;
+    width: 50px;
+    height: auto;
+    left: 0px;
+    border-radius: 50%;
+    margin-top: 4px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    height: 200px;
+    font-weight: 600;
+    color: black;
+    z-index: auto;
+}
+
+nav ul {
+    display: flex;
+    float: right;
+    justify-content: center;
+    font-weight: 400;
+    font-size: large;
+    color: #616161;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 20px;
+    font-size: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #616161;
+}
+
+nav ul li a:hover {
+    color: black;
+    transition: .3s;
+}
+
+.first-section {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin: 80px 0;
+}
+
+.first-section .first-h1 {
+    width: 50%;
+    font-weight: 500;
+    font-size: 1.8rem;
+}
+
+.second-section {
+    max-width: 80vw;
+    margin: auto;
+    padding: 25px;
+}
+
+.second-section h1 {
+    font-size: 1.8rem;
+    margin-top: 100px;
+}
+
+.second-section ul li {
+    margin: 40px;
+    color: #616161;
+}
+
+.footer {
+    display: flex;
+    margin-top: 100px;
+    padding: 25px 120px;
+    justify-content: space-around;
+}
+
+#icon a {
+    padding-left: 35px;
+}
+
+footer div a {
+    color: #616161;
+    text-decoration: none;
+}
+
+footer div a:hover {
+    color: black;
+    transition: .3s;   
+}
+
+footer .footer-rights {
+    text-align: center;
+    color: #616161;
+    padding: 12px 0px;
+}
